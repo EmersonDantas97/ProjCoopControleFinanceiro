@@ -1,0 +1,17 @@
+D:\EMERSON\Programacao\ProjCoopControleFinanceiro\bin\Debug\net6.0-windows\ProjCoopControleFinanceiro.exe
+D:\EMERSON\Programacao\ProjCoopControleFinanceiro\bin\Debug\net6.0-windows\ProjCoopControleFinanceiro.deps.json
+D:\EMERSON\Programacao\ProjCoopControleFinanceiro\bin\Debug\net6.0-windows\ProjCoopControleFinanceiro.runtimeconfig.json
+D:\EMERSON\Programacao\ProjCoopControleFinanceiro\bin\Debug\net6.0-windows\ProjCoopControleFinanceiro.dll
+D:\EMERSON\Programacao\ProjCoopControleFinanceiro\bin\Debug\net6.0-windows\ProjCoopControleFinanceiro.pdb
+D:\EMERSON\Programacao\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ProjCoopControleFinanceiro.csproj.AssemblyReference.cache
+D:\EMERSON\Programacao\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ProjCoopControleFinanceiro.Form1.resources
+D:\EMERSON\Programacao\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ProjCoopControleFinanceiro.csproj.GenerateResource.cache
+D:\EMERSON\Programacao\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ProjCoopControleFinanceiro.GeneratedMSBuildEditorConfig.editorconfig
+D:\EMERSON\Programacao\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ProjCoopControleFinanceiro.AssemblyInfoInputs.cache
+D:\EMERSON\Programacao\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ProjCoopControleFinanceiro.AssemblyInfo.cs
+D:\EMERSON\Programacao\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ProjCoopControleFinanceiro.csproj.CoreCompileInputs.cache
+D:\EMERSON\Programacao\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ProjCoopControleFinanceiro.dll
+D:\EMERSON\Programacao\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\refint\ProjCoopControleFinanceiro.dll
+D:\EMERSON\Programacao\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ProjCoopControleFinanceiro.pdb
+D:\EMERSON\Programacao\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ProjCoopControleFinanceiro.genruntimeconfig.cache
+D:\EMERSON\Programacao\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ref\ProjCoopControleFinanceiro.dll
