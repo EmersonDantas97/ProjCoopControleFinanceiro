@@ -4,7 +4,6 @@ D:\EMERSON\Programacao\ProjCoopControleFinanceiro\bin\Debug\net6.0-windows\ProjC
 D:\EMERSON\Programacao\ProjCoopControleFinanceiro\bin\Debug\net6.0-windows\ProjCoopControleFinanceiro.dll
 D:\EMERSON\Programacao\ProjCoopControleFinanceiro\bin\Debug\net6.0-windows\ProjCoopControleFinanceiro.pdb
 D:\EMERSON\Programacao\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ProjCoopControleFinanceiro.csproj.AssemblyReference.cache
-D:\EMERSON\Programacao\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ProjCoopControleFinanceiro.Form1.resources
 D:\EMERSON\Programacao\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ProjCoopControleFinanceiro.csproj.GenerateResource.cache
 D:\EMERSON\Programacao\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ProjCoopControleFinanceiro.GeneratedMSBuildEditorConfig.editorconfig
 D:\EMERSON\Programacao\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ProjCoopControleFinanceiro.AssemblyInfoInputs.cache
@@ -34,3 +33,8 @@ C:\Users\joao_\Documents\GitHub\Projetos\.NET\ProjCoopControleFinanceiro\obj\Deb
 C:\Users\joao_\Documents\GitHub\Projetos\.NET\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ref\ProjCoopControleFinanceiro.dll
 C:\Users\joao_\Documents\GitHub\Projetos\.NET\ProjCoopControleFinanceiro\bin\Debug\net6.0-windows\MySqlConnector.dll
 C:\Users\joao_\Documents\GitHub\Projetos\.NET\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ProjCoopControleFinanceiro.csproj.CopyComplete
+D:\EMERSON\Programacao\ProjCoopControleFinanceiro\bin\Debug\net6.0-windows\MySqlConnector.dll
+D:\EMERSON\Programacao\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ProjCoopControleFinanceiro.csproj.CopyComplete
+D:\EMERSON\Programacao\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ProjCoopControleFinanceiro.Frm_Login.resources
+D:\EMERSON\Programacao\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ProjCoopControleFinanceiro.Frm_Administrativo.resources
+D:\EMERSON\Programacao\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ProjCoopControleFinanceiro.Frm_CadastroConta.resources

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joao_\\Documents\\GitHub\\Projetos\\.NET\\ProjCoopControleFinanceiro\\ProjCoopControleFinanceiro.csproj": {}
+    "D:\\EMERSON\\Programacao\\ProjCoopControleFinanceiro\\ProjCoopControleFinanceiro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joao_\\Documents\\GitHub\\Projetos\\.NET\\ProjCoopControleFinanceiro\\ProjCoopControleFinanceiro.csproj": {
+    "D:\\EMERSON\\Programacao\\ProjCoopControleFinanceiro\\ProjCoopControleFinanceiro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joao_\\Documents\\GitHub\\Projetos\\.NET\\ProjCoopControleFinanceiro\\ProjCoopControleFinanceiro.csproj",
+        "projectUniqueName": "D:\\EMERSON\\Programacao\\ProjCoopControleFinanceiro\\ProjCoopControleFinanceiro.csproj",
         "projectName": "ProjCoopControleFinanceiro",
-        "projectPath": "C:\\Users\\joao_\\Documents\\GitHub\\Projetos\\.NET\\ProjCoopControleFinanceiro\\ProjCoopControleFinanceiro.csproj",
-        "packagesPath": "C:\\Users\\joao_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joao_\\Documents\\GitHub\\Projetos\\.NET\\ProjCoopControleFinanceiro\\obj\\",
+        "projectPath": "D:\\EMERSON\\Programacao\\ProjCoopControleFinanceiro\\ProjCoopControleFinanceiro.csproj",
+        "packagesPath": "C:\\Users\\Emerson\\.nuget\\packages\\",
+        "outputPath": "D:\\EMERSON\\Programacao\\ProjCoopControleFinanceiro\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\joao_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Emerson\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

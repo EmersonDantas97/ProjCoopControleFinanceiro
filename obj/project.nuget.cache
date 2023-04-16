@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yc2RHi3VqggkUnRCQ9XliusFoEcrUWHQGgJ0DqZRTI0KrPfUlehLV4+Ylx3fW97azfkG3TCqLhLX8y+2M2N05g==",
+  "dgSpecHash": "IYFC0LfAU63MDFpwBZ4NH2J4H/omsFN1H6+QuGxDB8ulqK17iMD3C06NX147/PAZSb8gxhsQphdiLg68r/LiiQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joao_\\Documents\\GitHub\\Projetos\\.NET\\ProjCoopControleFinanceiro\\ProjCoopControleFinanceiro.csproj",
+  "projectFilePath": "D:\\EMERSON\\Programacao\\ProjCoopControleFinanceiro\\ProjCoopControleFinanceiro.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\joao_\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512"
+    "C:\\Users\\Emerson\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512"
   ],
   "logs": []
 }
