@@ -84,7 +84,7 @@ namespace ProjCoopControleFinanceiro
 
         private void txt_Login_Validated(object sender, EventArgs e)
         {
-            if(!string.IsNullOrWhiteSpace(txt_Login.Text))
+            if (!string.IsNullOrWhiteSpace(txt_Login.Text))
                 lblUsuarioInvalido.Visible = false;
         }
 
@@ -106,7 +106,7 @@ namespace ProjCoopControleFinanceiro
 
         private void txt_Senha_Validated(object sender, EventArgs e)
         {
-            if(!string.IsNullOrEmpty(txt_Senha.Text))
+            if (!string.IsNullOrEmpty(txt_Senha.Text))
                 lblSenhaInvalida.Visible = false;
         }
 
@@ -118,6 +118,11 @@ namespace ProjCoopControleFinanceiro
         private void btn_Sair_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            new Frm_CadastroLogin().ShowDialog();
         }
     }
 }

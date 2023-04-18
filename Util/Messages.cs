@@ -12,5 +12,10 @@ namespace ProjCoopControleFinanceiro.Util
         {
             MessageBox.Show(message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
+
+        public static void Success(string message)
+        {
+            MessageBox.Show(message, "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

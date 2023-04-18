@@ -10,6 +10,5 @@ namespace ProjCoopControleFinanceiro.Views.Usuario
     {
         public string usuario { get; set; }
         public string senha { get; set; }
-        public bool lembrarLogin { get; set; }
     }
 }

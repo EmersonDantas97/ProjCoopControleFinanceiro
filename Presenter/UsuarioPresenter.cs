@@ -23,15 +23,42 @@ namespace ProjCoopControleFinanceiro.Presenter
 
         public Usuario Login()
         {
-            string condition = "usuario = @usuario AND senha = @senha";
-            return _repo.getByCondition(condition, new Usuario { usuario = _view.usuario, senha = _view.senha }); ;
+            try
+            {
+                string condition = "usuario = @usuario AND senha = @senha";
+                return _repo.getByCondition(condition, new Usuario { usuario = _view.usuario, senha = _view.senha }); ;
+            }
+            catch (Exception)
+            {
+                Util.Messages.Error("Erro ao fazer o login, tente novamente mais tarde!");
+                throw;
+            }
         }
 
         public void LimparTela()
         {
             _view.usuario = "";
             _view.senha = "";
-            _view.lembrarLogin = false;
+        }
+
+        public int Cadastro()
+        {
+            try
+            {
+                return _repo.Insert(new Usuario()
+                {
+                    usuario = _view.usuario,
+                    senha = _view.senha
+                });
+            }
+            catch (Exception ex)
+            {
+                if(ex.Message == "")
+                    Util.Messages.Error("Erro ao tentar salvar as informações, tente novamente mais tarde!");
+                else
+                    Util.Messages.Error(ex.Message);
+                throw;
+            }
         }
 
 
