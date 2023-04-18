@@ -1,5 +1,4 @@
 ﻿using ProjCoopControleFinanceiro.Util;
-using System.Diagnostics;
 using System.Text.Json;
 
 namespace ProjCoopControleFinanceiro.Repository
@@ -34,7 +33,7 @@ namespace ProjCoopControleFinanceiro.Repository
         private static void CreateConfig()
         {
             string json = JsonSerializer.Serialize(new Configuration());
-            using(StreamWriter sw = new StreamWriter(archive))
+            using (StreamWriter sw = new StreamWriter(archive))
             {
                 sw.WriteLine(json);
             }

@@ -1,20 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using ProjCoopControleFinanceiro.Model;
 
 namespace ProjCoopControleFinanceiro
 {
     public partial class Frm_Administrativo : Form
     {
-        public Frm_Administrativo()
+        private Usuario _usuarioLogado;
+        public Frm_Administrativo(Usuario usuarioLogado)
         {
             InitializeComponent();
+            _usuarioLogado = usuarioLogado;
         }
 
         private void contraToolStripMenuItem_Click(object sender, EventArgs e)
@@ -22,6 +16,11 @@ namespace ProjCoopControleFinanceiro
             Frm_CadastroConta f = new Frm_CadastroConta();
             f.MdiParent = this;
             f.Show();
+        }
+
+        private void Frm_Administrativo_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
