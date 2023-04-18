@@ -28,209 +28,224 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            pnl_BackGroundParcial = new Panel();
-            btn_Cadastrar = new Button();
-            lbl_TextoInformativo = new Label();
-            lbl_SejaBemVindo = new Label();
-            lbl_CapLogin = new Label();
-            txt_Login = new TextBox();
-            lbl_CapVersao = new Label();
-            txt_Senha = new TextBox();
-            btn_Entrar = new Button();
-            btn_Sair = new Button();
-            lbl_Senha = new Label();
-            chkSalvar = new CheckBox();
-            erroCampos = new ErrorProvider(components);
-            lblUsuarioInvalido = new Label();
-            lblSenhaInvalida = new Label();
-            pnl_BackGroundParcial.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)erroCampos).BeginInit();
-            SuspendLayout();
+            this.components = new System.ComponentModel.Container();
+            this.pnl_BackGroundParcial = new System.Windows.Forms.Panel();
+            this.btn_Cadastrar = new System.Windows.Forms.Button();
+            this.lbl_TextoInformativo = new System.Windows.Forms.Label();
+            this.lbl_SejaBemVindo = new System.Windows.Forms.Label();
+            this.lbl_CapLogin = new System.Windows.Forms.Label();
+            this.txt_Login = new System.Windows.Forms.TextBox();
+            this.lbl_CapVersao = new System.Windows.Forms.Label();
+            this.txt_Senha = new System.Windows.Forms.TextBox();
+            this.btn_Entrar = new System.Windows.Forms.Button();
+            this.btn_Sair = new System.Windows.Forms.Button();
+            this.lbl_Senha = new System.Windows.Forms.Label();
+            this.chkSalvar = new System.Windows.Forms.CheckBox();
+            this.erroCampos = new System.Windows.Forms.ErrorProvider(this.components);
+            this.lblUsuarioInvalido = new System.Windows.Forms.Label();
+            this.lblSenhaInvalida = new System.Windows.Forms.Label();
+            this.buttonCustom1 = new ProjCoopControleFinanceiro.Controls.ButtonCustom();
+            this.pnl_BackGroundParcial.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.erroCampos)).BeginInit();
+            this.SuspendLayout();
             // 
             // pnl_BackGroundParcial
             // 
-            pnl_BackGroundParcial.BackColor = SystemColors.Highlight;
-            pnl_BackGroundParcial.Controls.Add(btn_Cadastrar);
-            pnl_BackGroundParcial.Controls.Add(lbl_TextoInformativo);
-            pnl_BackGroundParcial.Controls.Add(lbl_SejaBemVindo);
-            pnl_BackGroundParcial.Location = new Point(0, 0);
-            pnl_BackGroundParcial.Name = "pnl_BackGroundParcial";
-            pnl_BackGroundParcial.Size = new Size(268, 355);
-            pnl_BackGroundParcial.TabIndex = 5;
+            this.pnl_BackGroundParcial.BackColor = System.Drawing.SystemColors.Highlight;
+            this.pnl_BackGroundParcial.Controls.Add(this.buttonCustom1);
+            this.pnl_BackGroundParcial.Controls.Add(this.btn_Cadastrar);
+            this.pnl_BackGroundParcial.Controls.Add(this.lbl_TextoInformativo);
+            this.pnl_BackGroundParcial.Controls.Add(this.lbl_SejaBemVindo);
+            this.pnl_BackGroundParcial.Location = new System.Drawing.Point(0, 0);
+            this.pnl_BackGroundParcial.Name = "pnl_BackGroundParcial";
+            this.pnl_BackGroundParcial.Size = new System.Drawing.Size(268, 355);
+            this.pnl_BackGroundParcial.TabIndex = 5;
             // 
             // btn_Cadastrar
             // 
-            btn_Cadastrar.FlatAppearance.BorderColor = Color.White;
-            btn_Cadastrar.FlatAppearance.MouseOverBackColor = Color.FromArgb(224, 224, 224);
-            btn_Cadastrar.FlatStyle = FlatStyle.Flat;
-            btn_Cadastrar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btn_Cadastrar.ForeColor = SystemColors.ButtonHighlight;
-            btn_Cadastrar.Location = new Point(96, 203);
-            btn_Cadastrar.Name = "btn_Cadastrar";
-            btn_Cadastrar.Size = new Size(75, 30);
-            btn_Cadastrar.TabIndex = 7;
-            btn_Cadastrar.Text = "Cadastrar";
-            btn_Cadastrar.UseVisualStyleBackColor = true;
+            this.btn_Cadastrar.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_Cadastrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_Cadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Cadastrar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_Cadastrar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_Cadastrar.Location = new System.Drawing.Point(94, 285);
+            this.btn_Cadastrar.Name = "btn_Cadastrar";
+            this.btn_Cadastrar.Size = new System.Drawing.Size(75, 30);
+            this.btn_Cadastrar.TabIndex = 7;
+            this.btn_Cadastrar.Text = "Cadastrar";
+            this.btn_Cadastrar.UseVisualStyleBackColor = true;
             // 
             // lbl_TextoInformativo
             // 
-            lbl_TextoInformativo.ForeColor = SystemColors.ControlLightLight;
-            lbl_TextoInformativo.Location = new Point(23, 158);
-            lbl_TextoInformativo.Name = "lbl_TextoInformativo";
-            lbl_TextoInformativo.Size = new Size(227, 37);
-            lbl_TextoInformativo.TabIndex = 2;
-            lbl_TextoInformativo.Text = "Caso seja seu primeiro acesso clique no botão abaixo";
-            lbl_TextoInformativo.TextAlign = ContentAlignment.MiddleCenter;
+            this.lbl_TextoInformativo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl_TextoInformativo.Location = new System.Drawing.Point(23, 158);
+            this.lbl_TextoInformativo.Name = "lbl_TextoInformativo";
+            this.lbl_TextoInformativo.Size = new System.Drawing.Size(227, 37);
+            this.lbl_TextoInformativo.TabIndex = 2;
+            this.lbl_TextoInformativo.Text = "Caso seja seu primeiro acesso clique no botão abaixo";
+            this.lbl_TextoInformativo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl_SejaBemVindo
             // 
-            lbl_SejaBemVindo.AutoSize = true;
-            lbl_SejaBemVindo.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
-            lbl_SejaBemVindo.ForeColor = SystemColors.ControlLightLight;
-            lbl_SejaBemVindo.Location = new Point(50, 124);
-            lbl_SejaBemVindo.Name = "lbl_SejaBemVindo";
-            lbl_SejaBemVindo.Size = new Size(181, 30);
-            lbl_SejaBemVindo.TabIndex = 1;
-            lbl_SejaBemVindo.Text = "Seja Bem Vindo!";
+            this.lbl_SejaBemVindo.AutoSize = true;
+            this.lbl_SejaBemVindo.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_SejaBemVindo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbl_SejaBemVindo.Location = new System.Drawing.Point(50, 124);
+            this.lbl_SejaBemVindo.Name = "lbl_SejaBemVindo";
+            this.lbl_SejaBemVindo.Size = new System.Drawing.Size(181, 30);
+            this.lbl_SejaBemVindo.TabIndex = 1;
+            this.lbl_SejaBemVindo.Text = "Seja Bem Vindo!";
             // 
             // lbl_CapLogin
             // 
-            lbl_CapLogin.AutoSize = true;
-            lbl_CapLogin.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            lbl_CapLogin.Location = new Point(297, 94);
-            lbl_CapLogin.Name = "lbl_CapLogin";
-            lbl_CapLogin.Size = new Size(37, 15);
-            lbl_CapLogin.TabIndex = 4;
-            lbl_CapLogin.Text = "Login";
+            this.lbl_CapLogin.AutoSize = true;
+            this.lbl_CapLogin.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_CapLogin.Location = new System.Drawing.Point(297, 94);
+            this.lbl_CapLogin.Name = "lbl_CapLogin";
+            this.lbl_CapLogin.Size = new System.Drawing.Size(37, 15);
+            this.lbl_CapLogin.TabIndex = 4;
+            this.lbl_CapLogin.Text = "Login";
             // 
             // txt_Login
             // 
-            txt_Login.Location = new Point(297, 112);
-            txt_Login.Name = "txt_Login";
-            txt_Login.Size = new Size(182, 23);
-            txt_Login.TabIndex = 1;
-            txt_Login.TextChanged += txt_Login_TextChanged;
-            txt_Login.Validating += txt_Login_Validating;
-            txt_Login.Validated += txt_Login_Validated;
+            this.txt_Login.Location = new System.Drawing.Point(297, 112);
+            this.txt_Login.Name = "txt_Login";
+            this.txt_Login.Size = new System.Drawing.Size(182, 23);
+            this.txt_Login.TabIndex = 1;
             // 
             // lbl_CapVersao
             // 
-            lbl_CapVersao.AutoSize = true;
-            lbl_CapVersao.Font = new Font("Segoe UI", 6.75F, FontStyle.Italic, GraphicsUnit.Point);
-            lbl_CapVersao.Location = new Point(440, 339);
-            lbl_CapVersao.Name = "lbl_CapVersao";
-            lbl_CapVersao.Size = new Size(68, 12);
-            lbl_CapVersao.TabIndex = 4;
-            lbl_CapVersao.Text = "Versão 01.00.00";
+            this.lbl_CapVersao.AutoSize = true;
+            this.lbl_CapVersao.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.lbl_CapVersao.Location = new System.Drawing.Point(440, 339);
+            this.lbl_CapVersao.Name = "lbl_CapVersao";
+            this.lbl_CapVersao.Size = new System.Drawing.Size(68, 12);
+            this.lbl_CapVersao.TabIndex = 4;
+            this.lbl_CapVersao.Text = "Versão 01.00.00";
             // 
             // txt_Senha
             // 
-            txt_Senha.Location = new Point(297, 168);
-            txt_Senha.Name = "txt_Senha";
-            txt_Senha.PasswordChar = '*';
-            txt_Senha.Size = new Size(182, 23);
-            txt_Senha.TabIndex = 2;
-            txt_Senha.Validating += txt_Senha_Validating;
-            txt_Senha.Validated += txt_Senha_Validated;
+            this.txt_Senha.Location = new System.Drawing.Point(297, 168);
+            this.txt_Senha.Name = "txt_Senha";
+            this.txt_Senha.PasswordChar = '*';
+            this.txt_Senha.Size = new System.Drawing.Size(182, 23);
+            this.txt_Senha.TabIndex = 2;
             // 
             // btn_Entrar
             // 
-            btn_Entrar.Location = new Point(348, 225);
-            btn_Entrar.Name = "btn_Entrar";
-            btn_Entrar.Size = new Size(75, 23);
-            btn_Entrar.TabIndex = 4;
-            btn_Entrar.Text = "Entrar";
-            btn_Entrar.UseVisualStyleBackColor = true;
-            btn_Entrar.Click += btn_Entrar_Click;
+            this.btn_Entrar.Location = new System.Drawing.Point(348, 225);
+            this.btn_Entrar.Name = "btn_Entrar";
+            this.btn_Entrar.Size = new System.Drawing.Size(75, 23);
+            this.btn_Entrar.TabIndex = 4;
+            this.btn_Entrar.Text = "Entrar";
+            this.btn_Entrar.UseVisualStyleBackColor = true;
             // 
             // btn_Sair
             // 
-            btn_Sair.FlatAppearance.BorderSize = 0;
-            btn_Sair.FlatAppearance.MouseOverBackColor = Color.IndianRed;
-            btn_Sair.FlatStyle = FlatStyle.Flat;
-            btn_Sair.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            btn_Sair.Location = new Point(487, -1);
-            btn_Sair.Name = "btn_Sair";
-            btn_Sair.Size = new Size(24, 23);
-            btn_Sair.TabIndex = 0;
-            btn_Sair.Text = "X";
-            btn_Sair.UseVisualStyleBackColor = true;
-            btn_Sair.Click += btn_Sair_Click;
+            this.btn_Sair.FlatAppearance.BorderSize = 0;
+            this.btn_Sair.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
+            this.btn_Sair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Sair.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Sair.Location = new System.Drawing.Point(487, -1);
+            this.btn_Sair.Name = "btn_Sair";
+            this.btn_Sair.Size = new System.Drawing.Size(24, 23);
+            this.btn_Sair.TabIndex = 0;
+            this.btn_Sair.Text = "X";
+            this.btn_Sair.UseVisualStyleBackColor = true;
             // 
             // lbl_Senha
             // 
-            lbl_Senha.AutoSize = true;
-            lbl_Senha.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            lbl_Senha.Location = new Point(297, 150);
-            lbl_Senha.Name = "lbl_Senha";
-            lbl_Senha.Size = new Size(40, 15);
-            lbl_Senha.TabIndex = 4;
-            lbl_Senha.Text = "Senha";
+            this.lbl_Senha.AutoSize = true;
+            this.lbl_Senha.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Senha.Location = new System.Drawing.Point(297, 150);
+            this.lbl_Senha.Name = "lbl_Senha";
+            this.lbl_Senha.Size = new System.Drawing.Size(40, 15);
+            this.lbl_Senha.TabIndex = 4;
+            this.lbl_Senha.Text = "Senha";
             // 
             // chkSalvar
             // 
-            chkSalvar.AutoSize = true;
-            chkSalvar.Font = new Font("Segoe UI", 6.75F, FontStyle.Regular, GraphicsUnit.Point);
-            chkSalvar.Location = new Point(332, 200);
-            chkSalvar.Name = "chkSalvar";
-            chkSalvar.Size = new Size(99, 16);
-            chkSalvar.TabIndex = 3;
-            chkSalvar.Text = "Salvar informações";
-            chkSalvar.UseVisualStyleBackColor = true;
+            this.chkSalvar.AutoSize = true;
+            this.chkSalvar.Font = new System.Drawing.Font("Segoe UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.chkSalvar.Location = new System.Drawing.Point(332, 200);
+            this.chkSalvar.Name = "chkSalvar";
+            this.chkSalvar.Size = new System.Drawing.Size(99, 16);
+            this.chkSalvar.TabIndex = 3;
+            this.chkSalvar.Text = "Salvar informações";
+            this.chkSalvar.UseVisualStyleBackColor = true;
             // 
             // erroCampos
             // 
-            erroCampos.ContainerControl = this;
+            this.erroCampos.ContainerControl = this;
             // 
             // lblUsuarioInvalido
             // 
-            lblUsuarioInvalido.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            lblUsuarioInvalido.ForeColor = Color.Red;
-            lblUsuarioInvalido.Location = new Point(348, 94);
-            lblUsuarioInvalido.Name = "lblUsuarioInvalido";
-            lblUsuarioInvalido.Size = new Size(131, 15);
-            lblUsuarioInvalido.TabIndex = 6;
-            lblUsuarioInvalido.Text = "Campo vazio/inválido!";
-            lblUsuarioInvalido.Visible = false;
+            this.lblUsuarioInvalido.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblUsuarioInvalido.ForeColor = System.Drawing.Color.Red;
+            this.lblUsuarioInvalido.Location = new System.Drawing.Point(348, 94);
+            this.lblUsuarioInvalido.Name = "lblUsuarioInvalido";
+            this.lblUsuarioInvalido.Size = new System.Drawing.Size(131, 15);
+            this.lblUsuarioInvalido.TabIndex = 6;
+            this.lblUsuarioInvalido.Text = "Campo vazio/inválido!";
+            this.lblUsuarioInvalido.Visible = false;
             // 
             // lblSenhaInvalida
             // 
-            lblSenhaInvalida.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            lblSenhaInvalida.ForeColor = Color.Red;
-            lblSenhaInvalida.Location = new Point(348, 150);
-            lblSenhaInvalida.Name = "lblSenhaInvalida";
-            lblSenhaInvalida.Size = new Size(131, 15);
-            lblSenhaInvalida.TabIndex = 6;
-            lblSenhaInvalida.Text = "Campo vazio/inválido!";
-            lblSenhaInvalida.Visible = false;
+            this.lblSenhaInvalida.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblSenhaInvalida.ForeColor = System.Drawing.Color.Red;
+            this.lblSenhaInvalida.Location = new System.Drawing.Point(348, 150);
+            this.lblSenhaInvalida.Name = "lblSenhaInvalida";
+            this.lblSenhaInvalida.Size = new System.Drawing.Size(131, 15);
+            this.lblSenhaInvalida.TabIndex = 6;
+            this.lblSenhaInvalida.Text = "Campo vazio/inválido!";
+            this.lblSenhaInvalida.Visible = false;
+            // 
+            // buttonCustom1
+            // 
+            this.buttonCustom1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.buttonCustom1.BackgroundColor = System.Drawing.SystemColors.Highlight;
+            this.buttonCustom1.BorderColor = System.Drawing.Color.LavenderBlush;
+            this.buttonCustom1.BorderRadius = 17;
+            this.buttonCustom1.BorderSize = 2;
+            this.buttonCustom1.FlatAppearance.BorderSize = 0;
+            this.buttonCustom1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCustom1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonCustom1.ForeColor = System.Drawing.Color.White;
+            this.buttonCustom1.Location = new System.Drawing.Point(81, 198);
+            this.buttonCustom1.Name = "buttonCustom1";
+            this.buttonCustom1.Size = new System.Drawing.Size(106, 35);
+            this.buttonCustom1.TabIndex = 8;
+            this.buttonCustom1.Text = "Cadastrar";
+            this.buttonCustom1.TextColor = System.Drawing.Color.White;
+            this.buttonCustom1.UseVisualStyleBackColor = false;
             // 
             // Frm_Login
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            ClientSize = new Size(511, 354);
-            Controls.Add(lblSenhaInvalida);
-            Controls.Add(lblUsuarioInvalido);
-            Controls.Add(chkSalvar);
-            Controls.Add(btn_Sair);
-            Controls.Add(btn_Entrar);
-            Controls.Add(txt_Senha);
-            Controls.Add(lbl_Senha);
-            Controls.Add(lbl_CapVersao);
-            Controls.Add(txt_Login);
-            Controls.Add(lbl_CapLogin);
-            Controls.Add(pnl_BackGroundParcial);
-            FormBorderStyle = FormBorderStyle.None;
-            Name = "Frm_Login";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Frm_Login";
-            pnl_BackGroundParcial.ResumeLayout(false);
-            pnl_BackGroundParcial.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)erroCampos).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ClientSize = new System.Drawing.Size(511, 354);
+            this.Controls.Add(this.lblSenhaInvalida);
+            this.Controls.Add(this.lblUsuarioInvalido);
+            this.Controls.Add(this.chkSalvar);
+            this.Controls.Add(this.btn_Sair);
+            this.Controls.Add(this.btn_Entrar);
+            this.Controls.Add(this.txt_Senha);
+            this.Controls.Add(this.lbl_Senha);
+            this.Controls.Add(this.lbl_CapVersao);
+            this.Controls.Add(this.txt_Login);
+            this.Controls.Add(this.lbl_CapLogin);
+            this.Controls.Add(this.pnl_BackGroundParcial);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Frm_Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Frm_Login";
+            this.pnl_BackGroundParcial.ResumeLayout(false);
+            this.pnl_BackGroundParcial.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.erroCampos)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
@@ -250,5 +265,6 @@
         private ErrorProvider erroCampos;
         private Label lblSenhaInvalida;
         private Label lblUsuarioInvalido;
+        private Controls.ButtonCustom buttonCustom1;
     }
 }
