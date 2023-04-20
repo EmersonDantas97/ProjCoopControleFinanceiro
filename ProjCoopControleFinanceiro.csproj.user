@@ -4,6 +4,9 @@
     <Compile Update="Controls\ButtonCustom.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Update="Controls\CheckBoxCustom.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Update="Views\Usuario\Frm_CadastroLogin.cs">
       <SubType>Form</SubType>
     </Compile>
