@@ -44,3 +44,4 @@ C:\Users\joao_\Documents\GitHub\Projetos\.NET\ProjCoopControleFinanceiro\obj\Deb
 D:\EMERSON\Programacao\ProjCoopControleFinanceiro\bin\Debug\net6.0-windows\Dapper.dll
 D:\EMERSON\Programacao\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ProjCoopControleFinanceiro.Frm_CadastroLogin.resources
 C:\Users\joao_\Documents\GitHub\Projetos\.NET\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ProjCoopControleFinanceiro.Frm_CadastroLogin.resources
+D:\EMERSON\Programacao\ProjCoopControleFinanceiro\obj\Debug\net6.0-windows\ProjCoopControleFinanceiro.Properties.Resources.resources
