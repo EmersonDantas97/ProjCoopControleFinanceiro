@@ -6,5 +6,6 @@
     internal static class RepoConstant
     {
         public static string TABELA_USUARIOS = "Usuarios";
+        public static string TABELA_CONTAS = "Contas";
     }
 }

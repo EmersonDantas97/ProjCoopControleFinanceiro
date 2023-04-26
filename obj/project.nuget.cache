@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "zCqFpuGvhsGiGU0Cc83P49MWXkzyvOQvCP52hfePHiujK5kHk9TZYhcJenOloadS0QF6Ti1cSxSq8wOGFVGHGQ==",
+  "dgSpecHash": "0cgcBmNWnZgZEMygpxKNUFUfgVqeOj5d8UkLJkvfO6TBgfEkeTPZPhb5Px3FGBOlHzx619O1RM9VT0vHMh4X0g==",
   "success": true,
-  "projectFilePath": "D:\\EMERSON\\Programacao\\ProjCoopControleFinanceiro\\ProjCoopControleFinanceiro.csproj",
+  "projectFilePath": "C:\\Users\\joao_\\Documents\\GitHub\\Projetos\\.NET\\ProjCoopControleFinanceiro\\ProjCoopControleFinanceiro.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Emerson\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
-    "C:\\Users\\Emerson\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512"
+    "C:\\Users\\joao_\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\joao_\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512"
   ],
   "logs": []
 }

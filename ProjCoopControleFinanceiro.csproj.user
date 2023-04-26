@@ -13,7 +13,7 @@
     <Compile Update="Views\Frm_Administrativo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Views\Frm_CadastroConta.cs">
+    <Compile Update="Views\Contas\Frm_CadastroConta.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Views\Usuario\Frm_Login.cs">
