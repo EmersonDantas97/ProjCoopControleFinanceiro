@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0cgcBmNWnZgZEMygpxKNUFUfgVqeOj5d8UkLJkvfO6TBgfEkeTPZPhb5Px3FGBOlHzx619O1RM9VT0vHMh4X0g==",
+  "dgSpecHash": "Bj+lctD4s4VKvexgXybN+WmY1aEhzlfnDiFmisb0C/3OpHGOqYpj7CA/kKhX1BBghhOYhLr4xcJkj4NXSJggBg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joao_\\Documents\\GitHub\\Projetos\\.NET\\ProjCoopControleFinanceiro\\ProjCoopControleFinanceiro.csproj",
+  "projectFilePath": "C:\\Users\\joao_\\Documents\\GitHub\\Projetos\\.NET\\Bkp\\ProjCoopControleFinanceiro\\ProjCoopControleFinanceiro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joao_\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\joao_\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512"

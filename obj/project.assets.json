@@ -90,11 +90,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joao_\\Documents\\GitHub\\Projetos\\.NET\\ProjCoopControleFinanceiro\\ProjCoopControleFinanceiro.csproj",
+      "projectUniqueName": "C:\\Users\\joao_\\Documents\\GitHub\\Projetos\\.NET\\Bkp\\ProjCoopControleFinanceiro\\ProjCoopControleFinanceiro.csproj",
       "projectName": "ProjCoopControleFinanceiro",
-      "projectPath": "C:\\Users\\joao_\\Documents\\GitHub\\Projetos\\.NET\\ProjCoopControleFinanceiro\\ProjCoopControleFinanceiro.csproj",
+      "projectPath": "C:\\Users\\joao_\\Documents\\GitHub\\Projetos\\.NET\\Bkp\\ProjCoopControleFinanceiro\\ProjCoopControleFinanceiro.csproj",
       "packagesPath": "C:\\Users\\joao_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joao_\\Documents\\GitHub\\Projetos\\.NET\\ProjCoopControleFinanceiro\\obj\\",
+      "outputPath": "C:\\Users\\joao_\\Documents\\GitHub\\Projetos\\.NET\\Bkp\\ProjCoopControleFinanceiro\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

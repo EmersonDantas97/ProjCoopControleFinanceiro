@@ -29,100 +29,94 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Administrativo));
-            this.mnstp_Menu = new System.Windows.Forms.MenuStrip();
-            this.cadastrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cartãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tipoContaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.recebimentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.visualizaçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnstp_Menu.SuspendLayout();
-            this.SuspendLayout();
+            mnstp_Menu = new MenuStrip();
+            cadastrosToolStripMenuItem = new ToolStripMenuItem();
+            contraToolStripMenuItem = new ToolStripMenuItem();
+            cartãoToolStripMenuItem = new ToolStripMenuItem();
+            tipoContaToolStripMenuItem = new ToolStripMenuItem();
+            recebimentoToolStripMenuItem = new ToolStripMenuItem();
+            visualizaçãoToolStripMenuItem = new ToolStripMenuItem();
+            mnstp_Menu.SuspendLayout();
+            SuspendLayout();
             // 
             // mnstp_Menu
             // 
-            this.mnstp_Menu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cadastrosToolStripMenuItem,
-            this.visualizaçãoToolStripMenuItem});
-            this.mnstp_Menu.Location = new System.Drawing.Point(0, 0);
-            this.mnstp_Menu.Name = "mnstp_Menu";
-            this.mnstp_Menu.Size = new System.Drawing.Size(800, 92);
-            this.mnstp_Menu.TabIndex = 0;
-            this.mnstp_Menu.Text = "menuStrip1";
+            mnstp_Menu.Items.AddRange(new ToolStripItem[] { cadastrosToolStripMenuItem, visualizaçãoToolStripMenuItem });
+            mnstp_Menu.Location = new Point(0, 0);
+            mnstp_Menu.Name = "mnstp_Menu";
+            mnstp_Menu.Size = new Size(800, 92);
+            mnstp_Menu.TabIndex = 0;
+            mnstp_Menu.Text = "menuStrip1";
             // 
             // cadastrosToolStripMenuItem
             // 
-            this.cadastrosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.contraToolStripMenuItem,
-            this.cartãoToolStripMenuItem,
-            this.tipoContaToolStripMenuItem,
-            this.recebimentoToolStripMenuItem});
-            this.cadastrosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cadastrosToolStripMenuItem.Image")));
-            this.cadastrosToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.cadastrosToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.cadastrosToolStripMenuItem.Name = "cadastrosToolStripMenuItem";
-            this.cadastrosToolStripMenuItem.Padding = new System.Windows.Forms.Padding(10);
-            this.cadastrosToolStripMenuItem.Size = new System.Drawing.Size(88, 88);
-            this.cadastrosToolStripMenuItem.Text = "Cadastros";
-            this.cadastrosToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.cadastrosToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.Overlay;
+            cadastrosToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { contraToolStripMenuItem, cartãoToolStripMenuItem, tipoContaToolStripMenuItem, recebimentoToolStripMenuItem });
+            cadastrosToolStripMenuItem.Image = (Image)resources.GetObject("cadastrosToolStripMenuItem.Image");
+            cadastrosToolStripMenuItem.ImageAlign = ContentAlignment.TopCenter;
+            cadastrosToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
+            cadastrosToolStripMenuItem.Name = "cadastrosToolStripMenuItem";
+            cadastrosToolStripMenuItem.Padding = new Padding(10);
+            cadastrosToolStripMenuItem.Size = new Size(88, 88);
+            cadastrosToolStripMenuItem.Text = "Cadastros";
+            cadastrosToolStripMenuItem.TextAlign = ContentAlignment.BottomCenter;
+            cadastrosToolStripMenuItem.TextImageRelation = TextImageRelation.Overlay;
             // 
             // contraToolStripMenuItem
             // 
-            this.contraToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("contraToolStripMenuItem.Image")));
-            this.contraToolStripMenuItem.Name = "contraToolStripMenuItem";
-            this.contraToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
-            this.contraToolStripMenuItem.Text = "Conta";
+            contraToolStripMenuItem.Image = (Image)resources.GetObject("contraToolStripMenuItem.Image");
+            contraToolStripMenuItem.Name = "contraToolStripMenuItem";
+            contraToolStripMenuItem.Size = new Size(144, 22);
+            contraToolStripMenuItem.Text = "Conta";
             // 
             // cartãoToolStripMenuItem
             // 
-            this.cartãoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cartãoToolStripMenuItem.Image")));
-            this.cartãoToolStripMenuItem.Name = "cartãoToolStripMenuItem";
-            this.cartãoToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
-            this.cartãoToolStripMenuItem.Text = "Cartão";
+            cartãoToolStripMenuItem.Image = (Image)resources.GetObject("cartãoToolStripMenuItem.Image");
+            cartãoToolStripMenuItem.Name = "cartãoToolStripMenuItem";
+            cartãoToolStripMenuItem.Size = new Size(144, 22);
+            cartãoToolStripMenuItem.Text = "Cartão";
             // 
             // tipoContaToolStripMenuItem
             // 
-            this.tipoContaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("tipoContaToolStripMenuItem.Image")));
-            this.tipoContaToolStripMenuItem.Name = "tipoContaToolStripMenuItem";
-            this.tipoContaToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
-            this.tipoContaToolStripMenuItem.Text = "Tipo Conta";
+            tipoContaToolStripMenuItem.Image = (Image)resources.GetObject("tipoContaToolStripMenuItem.Image");
+            tipoContaToolStripMenuItem.Name = "tipoContaToolStripMenuItem";
+            tipoContaToolStripMenuItem.Size = new Size(144, 22);
+            tipoContaToolStripMenuItem.Text = "Tipo Conta";
             // 
             // recebimentoToolStripMenuItem
             // 
-            this.recebimentoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("recebimentoToolStripMenuItem.Image")));
-            this.recebimentoToolStripMenuItem.Name = "recebimentoToolStripMenuItem";
-            this.recebimentoToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
-            this.recebimentoToolStripMenuItem.Text = "Recebimento";
+            recebimentoToolStripMenuItem.Image = (Image)resources.GetObject("recebimentoToolStripMenuItem.Image");
+            recebimentoToolStripMenuItem.Name = "recebimentoToolStripMenuItem";
+            recebimentoToolStripMenuItem.Size = new Size(144, 22);
+            recebimentoToolStripMenuItem.Text = "Recebimento";
             // 
             // visualizaçãoToolStripMenuItem
             // 
-            this.visualizaçãoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("visualizaçãoToolStripMenuItem.Image")));
-            this.visualizaçãoToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.visualizaçãoToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.visualizaçãoToolStripMenuItem.Name = "visualizaçãoToolStripMenuItem";
-            this.visualizaçãoToolStripMenuItem.Size = new System.Drawing.Size(83, 88);
-            this.visualizaçãoToolStripMenuItem.Text = "Visualização";
-            this.visualizaçãoToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.visualizaçãoToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.Overlay;
+            visualizaçãoToolStripMenuItem.Image = (Image)resources.GetObject("visualizaçãoToolStripMenuItem.Image");
+            visualizaçãoToolStripMenuItem.ImageAlign = ContentAlignment.TopCenter;
+            visualizaçãoToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
+            visualizaçãoToolStripMenuItem.Name = "visualizaçãoToolStripMenuItem";
+            visualizaçãoToolStripMenuItem.Size = new Size(83, 88);
+            visualizaçãoToolStripMenuItem.Text = "Visualização";
+            visualizaçãoToolStripMenuItem.TextAlign = ContentAlignment.BottomCenter;
+            visualizaçãoToolStripMenuItem.TextImageRelation = TextImageRelation.Overlay;
             // 
             // Frm_Administrativo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.mnstp_Menu);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.IsMdiContainer = true;
-            this.MainMenuStrip = this.mnstp_Menu;
-            this.Name = "Frm_Administrativo";
-            this.Text = "Controle Financeiro";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.mnstp_Menu.ResumeLayout(false);
-            this.mnstp_Menu.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(mnstp_Menu);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            IsMdiContainer = true;
+            MainMenuStrip = mnstp_Menu;
+            Name = "Frm_Administrativo";
+            Text = "Controle Financeiro";
+            WindowState = FormWindowState.Maximized;
+            FormClosing += Frm_Administrativo_FormClosing;
+            mnstp_Menu.ResumeLayout(false);
+            mnstp_Menu.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
